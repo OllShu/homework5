@@ -46,6 +46,53 @@ public class Main {
         }
 
         System.out.println("Доставка займет дней всего: " + deliveryDay);
+        System.out.println("_________________________________________");
+
+        // задание 5
+
+        int monthNumber;
+        monthNumber = 13;
+        switch (monthNumber) {
+                case 1 :
+                    System.out.println("Месяц номер "+monthNumber+" - январь принадлежит сезону зима");
+                    break;
+                case 2 :
+                    System.out.println("Месяц номер "+monthNumber+" - февраль принадлежит сезону зима");
+                    break;
+                case 3 :
+                    System.out.println("Месяц номер "+monthNumber+" - март принадлежит сезону весна");
+                    break;
+                case 4 :
+                    System.out.println("Месяц номер "+monthNumber+" - апрель принадлежит сезону весна");
+                    break;
+                case 5 :
+                    System.out.println("Месяц номер "+monthNumber+" - май принадлежит сезону весна");
+                    break;
+                case 6 :
+                    System.out.println("Месяц номер "+monthNumber+" - июнь принадлежит сезону лето");
+                    break;
+                case 7 :
+                    System.out.println("Месяц номер "+monthNumber+" - июль принадлежит сезону лето");
+                    break;
+                case 8 :
+                    System.out.println("Месяц номер "+monthNumber+" - август принадлежит сезону лето");
+                    break;
+                case 9 :
+                    System.out.println("Месяц номер "+monthNumber+" - сентябрь принадлежит сезону осень");
+                    break;
+                case 10 :
+                    System.out.println("Месяц номер "+monthNumber+" - октябрь принадлежит сезону осень");
+                    break;
+                case 11 :
+                    System.out.println("Месяц номер "+monthNumber+" - ноябрь принадлежит сезону осень");
+                    break;
+                case 12 :
+                    System.out.println("Месяц номер "+monthNumber+" - декабрь принадлежит сезону зима");
+                    break;
+            default:
+                System.out.println("Такого месяца не существует");
+        }
+
 
     }
 }
